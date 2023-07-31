@@ -8,7 +8,7 @@ To launch a single camera, run command: roslaunch oak_cameras stereo_inertial_no
 
 For single camera: stereo_inertial_node.launch--->kira_preprocessing.launch--->kira_aruco.launch
 
-With these, we are able to launch a single oak camera and add all point cloud filters except the cam_complementry one (used for multiple cameras).
+With these, we are able to launch a single oak camera and add all point cloud filters except the cam_complementry one (used for multiple cameras). The aruco_code is also added.
 
 # multiple cameras test
 
